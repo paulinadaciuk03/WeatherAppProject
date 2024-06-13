@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name..." spellcheck="false">
             <button><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
         </div>
         <div class="weather">
             <img src="images/rain.png" alt="" class="weather__icon">
@@ -34,5 +38,8 @@
             </div>
         </div>
     </div>
+
+    <script src="/config.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
