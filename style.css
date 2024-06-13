@@ -114,3 +114,24 @@ body{
     display: none;
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.navbar__logo{
+    width: 40px;
+    height: auto;
+}
+
+.navbar__title{
+    color: coral;
+    margin: 0 10px;
+}
+
+.navbar__p{
+    font-size: 15px;
+}
