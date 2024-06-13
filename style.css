@@ -40,14 +40,14 @@ body{
     border-radius: 30px;
     margin-right: 16px;
     font-size: 18px;
-    width: 90%;
+    width: 85%;
 }
 
 .search button {
     border: 0;
     outline: 0;
     background: #ebfffc;
-    width: 60px;
+    width: 15%;
     height: 60px;
     cursor: pointer;
     border-radius: 50%; 
@@ -84,7 +84,6 @@ body{
     margin-top: 50px;
     padding: 0 5%;
     flex-wrap: wrap;
-
 }
 
 .col{
@@ -92,7 +91,6 @@ body{
     align-items: center;
     text-align: left;
     margin: 0 auto;
-
 }
 
 .col img{
