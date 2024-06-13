@@ -1,11 +1,11 @@
-const apiKey = "53e844e741990ae136b2e0c6ddf1e21f";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-const searchBox = document.querySelector(".search input");
-const searchBtn = document.querySelector(".search button");
 
 async function checkWeather(city){
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
-
+    const apiKey = "53e844e741990ae136b2e0c6ddf1e21f";
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+    const searchBox = document.querySelector(".search input");
+    const searchBtn = document.querySelector(".search button");
+    
     if(response.status == 404){
         document.querySelector(".error").style.display = "block";
         document.querySelector(".weather").style.display = "none";
